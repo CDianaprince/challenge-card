@@ -25,20 +25,21 @@
 }
 
 .card{
-  width: 80%;
+  width: 90%;
   height: 15rem;
   color: var(--Transparent-white);
-  padding: 2rem 1rem 20rem;
+  padding: 2rem 2rem 22rem;
   line-height: 1.5rem;
   font-size: small;
   
 
 }
 .div-tex-h1{
-  margin: 1rem;
+  margin: 2rem;
   margin-left: 0;
   font-family: 'Big Shoulders Display', cursive;
   color: var(--Very-light-gray);
+  font-size:xx-large;
 }
 .sedan{background-color: var(--Bright-orange);
   border-top-left-radius: 4px;
