@@ -66,4 +66,32 @@
 .btn-2{color: var(--Dark-cyan);
 border-color: var(--Dark-cyan) ;}
 .btn-3{color: var(--Very-dark-cyan);
-border-color: var(--Very-dark-cyan);}
+border-color: var(--Very-dark-cyan);
+}
+
+
+@media screen and (min-width: 1200px) {
+  .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding: 10rem 13rem 15rem 15rem;
+    align-items: center;
+    justify-content: center;
+  } 
+
+  .card{
+    width: 50% !important;
+    height: 20rem;
+    padding: 2rem 2rem 25rem;
+    
+    
+  
+  }
+  .btn{
+    margin-top: 4rem;
+  }
+  .btn-3{
+    margin-top: 5.5rem;
+  }
+}
